@@ -1,0 +1,43 @@
+body{
+    background-image: url(back6.gif);
+    /* background-size: cover; */
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.chara1{
+    position: absolute;
+    bottom: 10px;
+    left: 275px;
+    height: 250px;
+}
+.chara2{
+    position: absolute;
+    bottom: 0px;
+    right: 275px;
+    height: 210px;
+}
+#spn1{
+    background-color: whitesmoke;
+}
+#spn2{
+    background-color: whitesmoke;
+}
+#btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#btn1{
+    margin-top: 25px;
+    padding:  5px 20px  5px 20px;
+    border-radius: 20px;
+    background-color: cadetblue;
+
+}
+#btn2{
+    margin-top: 25px;
+
+    padding:  5px 20px  5px 20px;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
